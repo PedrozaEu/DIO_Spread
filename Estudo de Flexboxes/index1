@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Fundamentos: Display Flex</title>
+	<Style>
+    	.flex{
+          	max-width: 300px;
+            padding: 10px;
+            border: 2px solid black;
+            display: flex;
+        }
+        .item{
+        	background-color: lime;
+            margin: 5px;
+        }
+        
+    </Style>
+    </head>
+  <body>
+  		<div class="flex">
+        	<div class="item">Item 01</div>
+        	<div class="item">Item 02</div>
+        	<div class="item">Item 03</div>
+        	<div class="item">Item 04</div>
+        	<div class="item">Item 04</div>
+        	<div class="item">Item 04</div>
+        	<div class="item">Item 04</div>
+        	<div class="item">Item 04</div>
+        	<div class="item">Item 04</div>
+        	<div class="item">Item 04</div>
+        	
+        </div>
+
+  </body>
+</html>
